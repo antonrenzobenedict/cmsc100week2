@@ -1,0 +1,9 @@
+Basic Routing
+	Route definition in express, a NodeJS module, takes the following structure:
+			app.<method>(<path>,<callback>)
+			
+			
+			app.route('/students')
+				.get(function(req,res){
+					res.send('Get a student');
+				}
