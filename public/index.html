@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>CMSC 100 HTML</title>
+			<meta charset = "utf-8"/>
+	</head>
+	<body>
+		<form method="POST" action="http://localhost:5000/students">
+			<input type="text" name="name" placeholder="Name" required ="required"/> <br/>
+			<input type="text" name="studno" placeholder="Student Number" pattern="^[0-9]{4}-[0-9]5$" title="MALI-KAAAA" required ="required"/> <br/>
+			<input type="submit" value="Create"/>
+
+		</form>
+		<form method="GET" action="http://localhost:5000/students">
+			<input type="submit" value="Get Students"/>
+		</form>
+
+
+	</body>
+</html>

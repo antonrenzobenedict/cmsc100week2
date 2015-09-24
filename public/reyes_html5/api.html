@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>API Documentation pages</title>
+			<meta charset = "utf-8"/>
+	</head>
+	<body>
+		<header>galadhrim.<strong>api</strong></header>
+		<article>
+			<h4>Data Management</h4>
+			<a href="college.html">
+				College
+			</a><br/>
+			<a href="degree_program.html">
+				Degree Program
+			</a><br/>
+			<a href="curriculum.html">
+				Curriculum
+			</a><br/>
+			<a href="student.html">
+				Student
+			</a>
+		</article>
+		<article>
+				<h3>College</h3>
+			<p>	A college is a unit<br/>
+				responsible for offering <br/>
+				degree programs.<br/>
+			</p>
+		</article>
+		<aside>
+			<h3>REST API</h3>
+			<strong>Create College</strong><br/>
+			POST<br/>
+			/api/colleges<br/>
+			@param code<br/>
+			@param name<br/><br/>
+			<strong>Example Request</strong><br/>
+			curl<br/>
+			http://ws.c/api/colleges<br/><br/>
+			<strong>Example Response</strong><br/>
+			{<br/>
+			&nbsp;&nbsp;"_id":1<br/>
+			&nbsp;&nbsp;"code":"CA"<br/>
+			&nbsp;&nbsp;"name" "College of Arts"<br/>
+			}
+		</aside>
+			
+
+	</body>
+</html>
